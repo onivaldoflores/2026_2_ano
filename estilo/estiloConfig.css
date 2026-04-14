@@ -1,0 +1,17 @@
+:root{
+    /*DEFINIÇÃO DA PALETA DE CORES DO SITE*/
+    --cor01:#32A041;
+    --cor02:#152614;
+    --cor03:#1E441E;
+    --cor04:#EDFBC1;
+    --cor05:#8C8A93;
+}
+
+/*RESETE GERAL DE ATRIBUTOS CSS DE NAVEGADORES*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial, sans-serif;
+    font-size:1rem;
+    box-sizing: border-box;
+}

@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center; /*alinhamento flex na horizontal*/
+    align-items: center; /*alinhamento flex na vertical*/
+    height: 100vh;
+}
+
+main{
+    border-radius: 10px;
+    padding: 35px;
+    min-width: 300px;
+    max-width: 450px;
+    text-align: center;
+    box-shadow: 0px 0px 15px 0px #0000007f;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 15px;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color:var(--cor03);
+}
